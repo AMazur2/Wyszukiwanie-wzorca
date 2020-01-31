@@ -75,17 +75,3 @@ vector<int> findBM( string & str, string & text )
     }
     return result;
 }
-
-
-int main()
-{
-    string pat = "badb";
-    string text = "dcbadbcbadbadbbdcbadb";
-    vector<int> res = findBM(pat, text);
-    cout << "Results: \t";
-    for(int i=0; i< res.size(); i++)
-    {
-        cout<<res[i]<<" ";
-    }
-    cout << endl;
-}
